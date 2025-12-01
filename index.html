@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>C.A. Cosmetóloga | Tratamientos faciales y corporales</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+</head>
+<body>
+
+  <!-- Menú -->
+  <div id="header-container"></div>
+
+<!-- Hero con logo a la izquierda -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-logo">
+      <img src="img/logo.jpg" alt="C.A. Cosmetóloga">
+    </div>
+    <div class="hero-text">
+      <h1>C.A. Cosmetóloga</h1>
+      <p>Tratamientos faciales y corporales en un entorno seguro y profesional.</p>
+      <a href="servicios.html" class="btn">Descubrí mis servicios</a>
+    </div>
+  </div>
+</section>
+
+  <!-- Video: filosofía -->
+  <section class="section" style="background-color: white;">
+    <h2 class="section-title">Mi enfoque</h2>
+    <div style="text-align: center; margin: 2rem 0;">
+      <video 
+        autoplay 
+        muted 
+        loop 
+        playsinline
+        style="width: 320px; height: auto; border-radius: 12px; box-shadow: var(--shadow);"
+      >
+        <source src="videos/bienvenida.mp4" type="video/mp4">
+        Tu navegador no soporta videos.
+      </video>
+      <p style="margin-top: 1rem; color: #666; font-style: italic;">
+        Cecilia explica su filosofía de cuidado integral.
+      </p>
+    </div>
+  </section>
+
+ <!-- Destacados: dos imágenes lado a lado, con texto debajo de cada una -->
+<section class="section">
+  <h2 class="section-title">Servicios destacados</h2>
+  
+  <div class="features-row">
+    <!-- Servicio 1 -->
+    <div class="feature-column">
+      <img src="img/servicios/limpieza-facial.jpg" alt="Limpieza Facial Profunda">
+      <div class="feature-content">
+        <h3>Limpieza Facial Profunda</h3>
+        <p>Extracción suave, hidratación y protección para piel renovada.</p>
+      </div>
+    </div>
+
+    <!-- Servicio 2 -->
+    <div class="feature-column">
+      <img src="img/servicios/tratamientos-corporales.jpg" alt="Tratamientos Corporales">
+      <div class="feature-content">
+        <h3>Tratamientos Corporales</h3>
+        <p>Reducción, reafirmación y cuidado integral del cuerpo.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <div id="footer-container"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
